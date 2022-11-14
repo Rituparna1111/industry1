@@ -1,0 +1,462 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+header{
+  background-color: #504c68;
+}
+.wrap{
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.clearfix{
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.main-header{
+  width: 100%;
+}
+
+.left{
+  float: left;
+  padding-top: 13px;
+  padding-bottom: 10px;
+}
+
+.right{
+  float: right;
+}
+
+.right ul li{
+  display: inline-block;
+  padding: 10px 15px 5px 15px;
+  font-size: 25px;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+.right a{
+  text-decoration: none;
+  color: #000;
+}
+
+.right a:hover{
+  color: #ffffff;
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+
+
+.banner{
+  position: relative;
+}
+
+.banner img{
+  width: 100%;
+  height: 500px;
+}
+
+.banner-content{
+  position: absolute;
+
+  transform: translate(59%, -197%);
+  font-size: 33px;
+  font-family: 'Inter Tight', sans-serif;
+  color: #000;
+  text-shadow: 0 0 0.8em #ffffff, 0 0 0.6em #e4e3e3;
+}
+
+
+
+.card-section{
+  margin: 30px 0;
+}
+
+h2{
+  padding-top: 30px;
+  font-family: Montserrat;
+  font-weight: 900;
+}
+.card-ind{
+  padding-top: 30px;
+  font-family: 'Arimo', sans-serif;
+}
+
+.row{
+  width: 100%;
+}
+
+.column{
+  width: 23%;
+  float: left;
+  text-align: center;
+  background-color: #527185;
+  margin: 11px;
+}
+
+.column img{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  height: 70px;
+}
+
+.image-border{
+  border-top: 5px solid white;
+}
+
+
+.card-para{
+  padding: 30px;
+  font-family: 'PT Serif', serif;
+}
+.extra{
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.section-title{
+  text-align: center;
+}
+
+.section-heading{
+  padding-top: 96px;
+  padding-bottom: 20px;
+  font-weight: bold;
+  font-family: 'Abyssinica SIL', serif;
+}
+
+.section-para{
+  padding-bottom: 20px;
+  font-family: 'Roboto Slab', serif;
+}
+.section-column{
+  width: 37%;
+  float: left;
+  margin: 39px;
+  padding: 25px;
+  background-color: #c3ae5e;
+}
+
+.image-heading{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10px 0;
+}
+
+.image-section-trending{
+  padding: 20px;
+
+}
+
+.image-content{
+  font-family: 'Rubik', sans-serif;
+}
+
+
+#property{
+  background-color: #5081aa;
+}
+h3{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: Merriweather;
+}
+
+.description{
+  text-align: center;
+}
+
+.property-heading{
+  padding-top: 70px;
+  padding-bottom: 40px;
+
+}
+
+.property-para{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: Montserrat;
+}
+
+
+.property-row{
+  width: 100%;
+}
+
+.property-column{
+  width: 31.33%;
+  float: left;
+  margin: 11px;
+
+}
+
+.property-row-para{
+  text-align: left;
+  padding-top: 10px;
+  font-size: 17px;
+  font-family: Montserrat;
+}
+
+.property-image{
+  width: 100%;
+  border-radius: 10px;
+}
+#property{
+  background-color: #e3dca6;
+}
+#property-1{
+
+}
+.property-column-1{
+  width: 30%;
+  float: left;
+  margin: 14px;
+  background-color: #aabbc1;
+}
+.property-image-1{
+  padding: 15px;
+  width: 80%;
+
+}
+.heading{
+  padding-top: 10px;
+  font-size: 20px;
+  font-family:'Slabo 27px', serif;
+  text-align: center;
+}
+.property-row-para-1{
+ width: 94%;
+ margin-left: 10px;
+ font-family: 'Josefin Sans', sans-serif;
+}
+.property-para-1{
+  padding-top: 5px;
+  font-size: 15px;
+  font-family: 'Arvo', serif;
+}
+.property-heading-1{
+  padding-top: 70px;
+  padding-bottom: 20px;
+  font-family: 'Slabo 27px', serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#property-2{
+  background-color: #9ed8d8;
+}
+
+#property-4{
+  background-color: #9ec0a7;
+}
+
+
+our-company{
+  margin-bottom: 90px;
+}
+
+.company-description{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.company-description-para{
+  padding-top: 10px;
+  font-size: 18px;
+  font-family: Montserrat;
+}
+
+.our-company-row{
+  width: 100%;
+}
+
+.our-company-column{
+  width: 48%;
+  float: left;
+  margin: 0 8px;
+}
+
+.about-text{
+  line-height: 1.5;
+  font-family: cursive;
+  font-size: 16px;
+}
+
+.list{
+  margin-top: 15px;
+  padding-left: 0;
+}
+
+
+.list li{
+  list-style: none;
+  margin-top: 10px;
+}
+
+.arrow-point{
+  float: left;
+  height: 20px;
+}
+
+.points{
+  padding-left: 30px;
+}
+.our-company-image{
+margin-top: 20px;
+height: 296px;
+}
+.card-section-ind{
+  margin: 30px 0;
+}
+.wrap-industry{
+  max-width: 1150px;
+  margin: 0  auto;
+  padding: 0 50px;
+
+}
+.column-industry{
+  width: 30%;
+  float: left;
+  text-align: center;
+  background-color: #dbdee3;
+  margin: 14px;
+}
+.scale{
+  font-family: 'Roboto Slab', serif;
+}
+.image-border-industry{
+  border-top: 15px solid white;
+}
+.column-industry img{
+   padding-top: 10px;
+   padding-bottom: 10px;
+   height: 200px;
+}
+.card-para-industry{
+  padding: 30px;
+  font-family: 'Rubik', sans-serif;
+
+}
+.investment{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+
+}
+.investment-description{
+  text-align: center;
+}
+.investment-heading{
+  padding-top: 76px;
+  padding-bottom: 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 30px;
+}
+.investment-para{
+  padding-bottom: 20px;
+  font-family: 'Zilla Slab', serif;
+}
+.column-investment{
+  width: 30%;
+  float: left;
+  text-align: center;
+  margin: 14px;
+  background-color: #e4db99;
+
+}
+.investment-img{
+  padding: 15px;
+}
+.job-opportunity{
+  margin-bottom: 90px;
+}
+.job-opportunity-description{
+  text-align: center;
+}
+.job-opportunity-heading{
+  font-family: 'Arvo', serif;
+}
+.job-opportunity-para{
+  font-family: 'Slabo 27px', serif;
+}
+.job-opportunity-row{
+  width: 100%;
+
+}
+.job-opportunity-column{
+  width: 48%;
+  margin: 0 8px;
+  float: left;
+}
+.job-list{
+  margin-top: 15px;
+  padding-left: 0;
+}
+.job-list li{
+  list-style: none;
+  margin-top: 10px;
+}
+.right-arrow{
+  float: left;
+  height: 20px;
+}
+.job-point{
+  padding-left: 30px;
+  font-family: 'Taviraj', serif;
+}
+
+
+
+
+
+.footer-background{
+  background-color: #607773;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.row-footer{
+  width: 100%;
+
+}
+
+.column-footer{
+  width: 23%;
+  float: left;
+  margin: 11px;
+}
+
+.footer-list{
+  list-style: none;
+  padding: 0;
+  line-height: 1.5;
+
+}
+
+.list-item{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.footer-links{
+  text-decoration: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #2b3834;
+
+}
+h5{
+  font-family:  'Lora', serif;
+  color: #072e4c;
+  font-size: 19px;
+}
+
+.footer-links:hover{
+   text-shadow: 0 0 0.8em #c4cac8, 0 0 0.6em #ebf2ef;
+}
